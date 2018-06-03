@@ -1,0 +1,4 @@
+Django==1.9
+markdown2==2.3.5
+mysqlclient==1.3.12
+PyMySQL==0.8.1

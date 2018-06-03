@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Register</title>
+	<script type="text/javascript">
+		function authentication(){
+			var raw_username = document.getElementById("username").value;
+			$.ajax({type:'POST',data:{raw_username:raw_username}});
+			
+		}
+	</script>
+</head>
+<body>
+<h2>register page</h2>
+<p>{{ error }}</p>
+<form action="" method="post">
+	<p>{{ form.as_p }}</p>
+	<input type="submit" value="Submit" />
+</form>
+</body>
+</html>
